@@ -1,0 +1,247 @@
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+header{
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('jym.jpg');
+   background-size: cover;
+   font-family: sans-serif;
+   
+   
+}
+
+nav{
+   width: 100%;
+   height: 100px;
+   background-color: black;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+}
+
+.logo{
+   max-width: 10vw;
+   max-height: 10vh;
+   background: black;
+
+}
+
+.tool a{
+   text-decoration: none;
+   color:aliceblue;
+   padding:10px 20px;
+   position:relative;
+   transition: 0.3s linear;
+}
+
+.tool a:hover{
+color: red;
+}
+
+.enroll a{
+   text-decoration: none;
+   color:aliceblue;
+   padding:10px 20px;
+   background: orangered;
+   border-radius: 8px;
+   transition: 0.3s;
+}
+
+.enroll a:hover{
+   background: transparent;
+   border: 1px solid orangered;
+}
+
+.text{
+  max-width: 560px;
+  position: absolute; 
+  top: 40%;
+  left:15%;
+  text-align: left;
+  color: white;
+}
+
+.text h1{
+   font-size: 35px;
+   font-family: cursive;
+}
+
+.text span{
+   letter-spacing: 5px;
+   color: orangered;
+   font-size: 70px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.text p{
+   font-size: 12px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form {
+position: absolute;
+width: 385px;
+height: 250px;
+padding: 20px;
+background: transparent;
+top: 40%;
+right: 15%;
+
+}
+
+
+
+.fields {
+margin-bottom: 15px;
+}
+
+.fields label {
+display: block;
+margin-bottom: 5px;
+color: white;
+
+}
+
+.fields input {
+width: 100%;
+padding: 8px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+.click {
+text-align: center;
+}
+
+.click button {
+padding: 10px 20px;
+background-color: #f30b0b; 
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.click button:hover{
+background:orange ;
+
+}
+
+.form h2 {
+text-align: center;
+margin-bottom: 20px;
+color: aliceblue;
+font-size: 15px;
+}
+
+ .part{
+   width: 100%;
+   height: 100%;
+   /* text-align: left; */
+   /* background-image: url('bg2.jpeg');
+   background-size: cover; */
+   font-family: sans-serif;
+   color: rgb(8, 0, 0);
+   font-size: 25px;
+   margin-top: 20px;
+}
+
+.margin{ 
+     margin-left: 50px;
+     margin-right: 50px;
+     text-align: justify;
+}
+
+
+
+#ABOUT h1{
+   text-decoration:underline;
+   font-size: 3.0em;
+   text-align: center;
+   color: black;
+   padding-top: 50px;
+   padding-bottom: 50px;
+
+}
+
+#ABOUT p{
+   margin-bottom: 5%;
+}
+
+
+#PRICING ul{
+   margin-top: 50px;
+   margin-left: 50px;
+}
+
+#PRICING h1{
+   text-decoration:underline;
+   font-size: 3.0em;
+   text-align: center;
+   color: black;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+
+#PRICING li{
+   color: yellowgreen;
+   
+}
+
+#PRICING p{
+   color:black;
+}
+
+/* .pl{
+   float: right;
+   width: 70%;
+} */
+
+#PROGRAMMES h1{
+  
+   text-decoration:underline;
+   font-size: 3.0em;
+   text-align: center;
+   color: black;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+#PROGRAMMES ol{
+   margin-left: 30px;
+}
+
+#PROGRAMMES li{
+   color: yellowgreen;
+   
+}
+
+#PROGRAMMES p{
+   color:black;
+   
+}
+
+/* #CONTACT ul{
+   margin-left: 30px;
+} */
+
+/* #CONTACT h1{
+   text-decoration:underline;
+   font-size: 3.0em;
+   text-align: center;
+   color: black;
+} */
+
+footer {
+   text-align: left;
+   padding: 1rem;
+   background-color: #333;
+   color: #fff;
+ }
